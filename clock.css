@@ -1,0 +1,172 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-size: 20px;
+font-family: sans-serif;
+color: #000;
+background:  url(images.jpg);
+height: 100vh;
+background-position: center;
+background-size: cover;
+}
+
+.clock {
+height: 270px;
+width: 270px;
+border: 8px solid black;
+border-radius: 50%;
+top: 80px;
+position: relative;
+background: #fff;
+
+}
+
+.h12 {
+top: 10px;
+left: 120px;
+position: absolute;
+margin: auto;
+z-index: 1;
+}
+
+.h1 {
+top: 25px;
+left: 180px;
+position: absolute;
+z-index: 2;
+}
+
+.h2 {
+top: 65px;
+left: 220px;
+position: absolute;
+z-index: 3;
+}
+
+.h3 {
+top: 117px;
+left: 240px;
+position: absolute;
+z-index: 4;
+}
+
+.h4 {
+top: 173px;
+left: 230px;
+position: absolute;
+z-index: 5;
+}
+
+.h5 {
+top: 219px;
+left: 186px;
+position: absolute;
+z-index: 6;
+}
+
+.h6 {
+top: 235px;
+left: 125px;
+position: absolute;
+z-index: 7;
+}
+
+.h7 {
+top: 215px;
+right: 189px;
+position: absolute;
+z-index: 8;
+}
+
+.h8 {
+top: 169px;
+right: 224px;
+position: absolute;
+z-index: 9;
+}
+
+.h9 {
+top: 120px;
+right: 240px;
+position: absolute;
+z-index: 10;
+}
+
+.h10 {
+top: 65px;
+right: 218px;
+position: absolute;
+z-index: 11;
+}
+
+.h11 {
+top: 28px;
+right: 176px;
+position: absolute;
+z-index: 12;
+}
+
+
+.dot {
+width: 14px;
+height: 14px;
+background: #000;
+position: absolute;
+border-radius: 50%;
+top: 122px;
+left: 125px;
+z-index:10000;
+}
+
+.inner-circle {
+border: 2px solid #000;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+position: relative;
+top: 58px;
+right: 2px;
+}
+
+
+#hour-hand {
+height: 70px;
+width: 5px;
+background:  #E41B17;
+position: absolute;
+top: 60px;
+left: 130px;
+z-index: 6;
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+transform-origin: 50% 72px;
+}
+
+#minute-hand {
+height: 100px;
+width: 4px;
+background: #FDD017;
+position: absolute;
+top: 25px;
+left: 130px;
+z-index: 7;
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+transform-origin: 50% 105px;
+}
+
+#second-hand {
+height: 135px;
+width: 2px;
+background: #52D017;
+position: absolute;
+top: 20px;
+left: 130px;
+z-index: 7;
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+transform-origin: 50% 110px;
+}
